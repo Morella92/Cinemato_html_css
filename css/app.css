@@ -107,3 +107,37 @@ button{
     right: 25px;
     top: 50%;
 }
+/*PELICULA SECTION*/
+.pelicula_titles{
+    padding-top: 115px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.pelicula_small_title{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.pelicula_big_title{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.row_pelicula{
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    row-gap: 50px;
+}
+.col-3{
+    flex-basis: calc(100% / 3);
+}
+.pelicula_img{
+    width: 85px;
+    margin-bottom: 25px;
+}
+.col_title{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
