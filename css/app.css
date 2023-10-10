@@ -126,10 +126,12 @@ button{
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
+    justify-content: center;
     row-gap: 50px;
+    column-gap: 100px;
 }
 .col-3{
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 3 - 80px);
 }
 .pelicula_img{
     width: 85px;
@@ -140,4 +142,7 @@ button{
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 25px;
+}
+.bottom-p{
+    margin-bottom: 115px;
 }
