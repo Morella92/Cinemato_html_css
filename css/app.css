@@ -114,17 +114,17 @@ button{
 
 /*PELICULA SECTION AND BEST MOVIES*/
 
-.pelicula_titles, .best_movies_titles, .team_titles{
+.pelicula_titles, .best_movies_titles, .team_titles, .articles_titles{
     padding-top: 115px;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
 }
-.pelicula_small_title, .best_movies_small_title, .team_title{
+.pelicula_small_title, .best_movies_small_title, .team_title, .articles_small_title{
     font-size: 15px;
     margin-bottom: 30px;
 }
-.pelicula_big_title, .best_movies_big_title, .team_title{
+.pelicula_big_title, .best_movies_big_title, .team_title, .articles_big_title{
     font-size: 35px;
     margin-bottom: 50px;
 }
@@ -177,23 +177,30 @@ button{
     color: white;
 }
 
-/*OUR NUMBERS SECTION*/
-
-.our_numbers{
-    height: 310px;
+/*OUR NUMBERS SECTION + LOGOS SECTION*/
+.our_numbers_background{
     background-image: url(../img/Parallax-01.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+}
+.logos_background{
+    background-image: url(../img/Parallax-03.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.our_numbers, .logos{
+    height: 310px;
     color: white;
     text-transform: uppercase;
 }
-.row_our_numbers{
+.row_our_numbers, .row_logos{
     justify-content: center;
     align-items: center;
     gap: 100px;
 }
-.col_our_numbers{
+.col_our_numbers, .col_logos{
     padding-top: 150px;
     text-align: center;
 }
@@ -216,3 +223,79 @@ button{
 .team_name{
     margin-top: 25px;
 }
+
+/*COMMENTS SECTION*/
+
+.comments{
+    height: 600px;
+    background-image: url(../img/Parallax-02.jpg);
+    color: white;
+    text-align: center;
+}
+
+.row_comments{
+    justify-content: center;
+    align-items: center;
+}
+
+.direction{
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.icon_comments{
+    font-size: 50px;
+    margin-bottom: 45px;
+}
+.p_comments{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.col_img, .col_name{
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+.img_comments{
+    width: 60px;
+    border-radius: 50%;
+}
+.name_comments{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.dots{
+    margin-right: 12px;
+}
+
+/*ARTICLES SECTION*/
+.row_articles{
+    gap: 30px;
+}
+.articles_img{
+    width: 450px;
+}
+.articles_date{
+    margin-top: 20px;
+    color: gray;
+    font-size: 12px;
+}
+.articles_description{
+    margin-top: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.articles_p{
+    margin-top: 20px;
+}
+
+/*COLLABORATE SECTION*/
+
+.collaborate{
+    margin-top: 90px;
+}
+.row_collaborate{
+    gap: 60px;
+}
+
+
+  
